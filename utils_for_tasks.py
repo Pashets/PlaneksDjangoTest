@@ -1,3 +1,4 @@
+import os
 import random
 from string import ascii_lowercase
 
@@ -7,7 +8,8 @@ from mainapp.models import DataSet
 
 def create_csv(dataset_id):
     dataset = DataSet.objects.filter(id=dataset_id).first()
-    with open(f'{settings.MEDIA_ROOT}/{dataset_id}.csv', 'w') as f:
+    file_path = os.path.join(settings.MEDIA_ROOT, f'{dataset_id}.csv')
+    with open(file_path, 'w') as f:
         column_type_1 = dataset.schema.column_type_1
         column_type_2 = dataset.schema.column_type_2
         column_type_3 = dataset.schema.column_type_3

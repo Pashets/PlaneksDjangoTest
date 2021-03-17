@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    New
+{% endblock %}
+
+{% block content_title %}
+    Create new schema
+{% endblock %}
+
+{% block content %}
+    <form method="post" class="form-row" id="form">
+        {% csrf_token %}
+        {{ error }}
+        {{ form.name }}<br>
+        <h2>Schema columns</h2>
+        {{ form.column_name_1 }}
+        {{ form.column_type_1 }}
+        {{ form.column_from_1 }}
+        {{ form.column_to_1 }}
+        {{ form.column_order_1 }}
+        <br>
+        {{ form.column_name_2 }}
+        {{ form.column_type_2 }}
+        {{ form.column_from_2 }}
+        {{ form.column_to_2 }}
+        {{ form.column_order_2 }}
+        <br>
+        {{ form.column_name_3 }}
+        {{ form.column_type_3 }}
+        {{ form.column_from_3 }}
+        {{ form.column_to_3 }}
+        {{ form.column_order_3 }}
+        <button type="submit" class="button btn-success">Создать</button>
+    </form>
+
+{% endblock %}

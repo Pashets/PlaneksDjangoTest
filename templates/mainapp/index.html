@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block content_title %}
+    All schemas
+{% endblock %}
+
+{% block content %}
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for schema in schemas %}
+            <tr>
+                <th scope="row">{{ schema.id }}</th>
+                <td><a href="{% url 'detail' schema.id %}">{{ schema.name }}</a></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fbdb8e57-2ee1-46ba-afd4-114984125a67" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlaneksDjangoTest/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlaneksDjangoTest/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +185,7 @@
       <workItem from="1615769193446" duration="7170000" />
       <workItem from="1615776444591" duration="19512000" />
       <workItem from="1615837675389" duration="13000" />
-      <workItem from="1615905274413" duration="40018000" />
+      <workItem from="1615905274413" duration="40172000" />
     </task>
     <servers />
   </component>

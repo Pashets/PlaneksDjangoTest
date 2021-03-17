@@ -1,85 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbdb8e57-2ee1-46ba-afd4-114984125a67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/18.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/19.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/20.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/30.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/31.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/32.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/33.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/34.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/35.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/36.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/37.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/38.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/39.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/40.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/41.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/42.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/43.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/44.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/45.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/46.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/47.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/48.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/49.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/50.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/51.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/52.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/53.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/54.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/55.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/56.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/57.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/58.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/59.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/60.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/61.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/62.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/63.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/64.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/65.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/66.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/67.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/68.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/69.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/70.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/71.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/72.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/73.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/74.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils_for_tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2-2.8.6.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2-2.8.6.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2-2.8.6.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2-2.8.6.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2-2.8.6.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2-2.8.6.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2-2.8.6.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/_ipaddress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/_lru_cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/_psycopg.cp38-win32.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/_range.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/errorcodes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/extensions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/extras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/pool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/tz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlaneksDjangoTest/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlaneksDjangoTest/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/tasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mainapp/detail_schema.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mainapp/detail_schema.html" afterDir="false" />
-    </list>
+    <list default="true" id="fbdb8e57-2ee1-46ba-afd4-114984125a67" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,7 +182,7 @@
       <workItem from="1615769193446" duration="7170000" />
       <workItem from="1615776444591" duration="19512000" />
       <workItem from="1615837675389" duration="13000" />
-      <workItem from="1615905274413" duration="34294000" />
+      <workItem from="1615905274413" duration="34595000" />
     </task>
     <servers />
   </component>

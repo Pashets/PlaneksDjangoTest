@@ -24,7 +24,9 @@ SECRET_KEY = ')^$%_h3if^bcm*yd88epoy@zydg_ky35ze5hn9#!&18ln7*y2%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'planeks-django-test.herokuapp.com'
+]
 
 # Application definition
 

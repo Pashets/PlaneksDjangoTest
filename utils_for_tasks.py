@@ -26,7 +26,7 @@ def create_csv(dataset_id):
                 random.shuffle(list_with_letters)
                 line += f'{"".join(list_with_letters)}@{random.choice(["gmail.com", "i.ua", "ukr.net"])},'
             elif column_type_1 == 'Phone number':
-                line += f'+{"".join([random.choice([*range(10)]) for _ in range(random.choice([9, 10, 11, 12, 13]))])},'
+                line += f'+{"".join([random.choice([str(_) for _ in [*range(10)]]) for __ in range(random.choice([9, 10, 11, 12, 13]))])},'
             elif column_type_1 == 'Integer':
                 min_value = min(dataset.schema.column_from_1, dataset.schema.column_to_1)
                 max_value = max(dataset.schema.column_from_1, dataset.schema.column_to_1)

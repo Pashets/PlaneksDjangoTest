@@ -1,2 +1,2 @@
 web: gunicorn PlaneksDjangoTest.wsgi --log-file -
-worker: celery worker --app=tasks.app
+worker: celery -A PlaneksDjangoTest worker -l info

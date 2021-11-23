@@ -140,8 +140,7 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = 'media/'
 
 # CELERY_BROKER_URL = 'redis://localhost:6379/0'
-# CELERY_BROKER_URL = os.environ.get('REDIS_URL')
-CELERY_BROKER_URL = 'redis://:p7901f158cc40cc4a91cd3dddeede94a1a9667101bff167282ca4ece716425bab@ec2-54-74-82-104.eu-west-1.compute.amazonaws.com:23660'
+CELERY_BROKER_URL = os.environ.get('REDIS_TLS_URL')
 CELERY_TIMEZONE = "Europe/Kiev"
 CELERY_TASK_TRACK_STARTED = True
 CELERY_TASK_TIME_LIMIT = 30 * 60

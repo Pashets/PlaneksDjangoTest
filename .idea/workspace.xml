@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbdb8e57-2ee1-46ba-afd4-114984125a67" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6925845d-4537-4f5d-86e1-5cabf7c47250.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6925845d-4537-4f5d-86e1-5cabf7c47250.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6925845d-4537-4f5d-86e1-5cabf7c47250/storage_v2/_src_/database/dac9u2b0jv7hbs.DL-uwA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6925845d-4537-4f5d-86e1-5cabf7c47250/storage_v2/_src_/database/dac9u2b0jv7hbs.DL-uwA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6925845d-4537-4f5d-86e1-5cabf7c47250/storage_v2/_src_/database/dac9u2b0jv7hbs.DL-uwA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6925845d-4537-4f5d-86e1-5cabf7c47250/storage_v2/_src_/database/dac9u2b0jv7hbs.DL-uwA/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlaneksDjangoTest/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlaneksDjangoTest/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils_for_tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils_for_tasks.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

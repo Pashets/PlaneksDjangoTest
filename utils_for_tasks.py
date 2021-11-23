@@ -1,3 +1,4 @@
+import logging
 import os
 import random
 from string import ascii_lowercase
@@ -62,6 +63,7 @@ def create_csv(dataset_id):
                 max_value = max(dataset.schema.column_from_3, dataset.schema.column_to_3)
                 line += f'{random.randrange(min_value, max_value)}\n'
             lines.append(line)
+        logging.info(f'{lines=}')
         f.writelines(lines)
     dataset.state = 'Ready'
     dataset.file_name = f'{dataset_id}.csv'

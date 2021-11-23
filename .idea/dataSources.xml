@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="DB Planeks" uuid="6925845d-4537-4f5d-86e1-5cabf7c47250">
+    <data-source source="LOCAL" name="Planeks" uuid="51b96a9d-e39b-49f2-9ff2-4a07fc660108">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://ec2-108-128-104-50.eu-west-1.compute.amazonaws.com:5432/dac9u2b0jv7hbs</jdbc-url>
+      <jdbc-url>jdbc:postgresql://ec2-54-220-53-223.eu-west-1.compute.amazonaws.com:5432/ddnui3vvdkiitn</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

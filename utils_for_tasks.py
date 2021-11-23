@@ -10,6 +10,7 @@ from mainapp.models import DataSet
 def create_csv(dataset_id):
     dataset = DataSet.objects.filter(id=dataset_id).first()
     file_path = os.path.join(settings.MEDIA_ROOT, f'{dataset_id}.csv')
+    logging.info(f'{file_path=}')
     with open(file_path, 'w') as f:
         column_type_1 = dataset.schema.column_type_1
         column_type_2 = dataset.schema.column_type_2
@@ -63,8 +64,11 @@ def create_csv(dataset_id):
                 max_value = max(dataset.schema.column_from_3, dataset.schema.column_to_3)
                 line += f'{random.randrange(min_value, max_value)}\n'
             lines.append(line)
-        logging.info(f'{lines=}')
         f.writelines(lines)
+    logging.info('Check file')
+    with open(file_path,'r') as f:
+        read = f.read()
+    logging.info(f'{read=}')
     dataset.state = 'Ready'
     dataset.file_name = f'{dataset_id}.csv'
     dataset.save()
